@@ -1,11 +1,11 @@
+package models;
 
-
-public class CaesarCipher {
+public class Decrypt {
 
     private String mInputString;
     private int mShift;
 
-    public CaesarCipher(String mInputString, int mShift){
+    public Decrypt(String mInputString, int mShift){
         this.mInputString = mInputString;
         this.mShift = mShift;
 
@@ -16,7 +16,7 @@ public class CaesarCipher {
     public int getmShift() {
         return mShift;
     }
-    public static String decrypt(CaesarCipher decrypt){
+    public static String decrypt(Decrypt decrypt){
         //getting the length of the string should not be more than 26 letters;
         if (decrypt.mShift> 26) {
             decrypt.mShift = decrypt.mShift % 26;
