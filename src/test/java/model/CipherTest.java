@@ -1,24 +1,13 @@
 package model;
 import models.Cipher;
-import org.junit.After;
-import org.junit.Before;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
 public class CipherTest {
-
-    @Before
-    public void setUp() throws Exception {
-    }
-
-    @After
-    public void tearDown() throws Exception {
-    }
-
     @Test
     public void runCipher_instantiatesCorrectly() {
         Cipher testEncryption = new Cipher("z", 1);
-        assertEquals("z", testEncryption instanceof Cipher);
+        assertEquals("true", testEncryption instanceof Cipher);
     }
     @Test
     public void runCipher_getmInputString() {

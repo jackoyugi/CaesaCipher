@@ -1,13 +1,7 @@
 package models;
-
     public class Cipher {
         private String mInputString;
         private int mShift;
-
-        String letters = "hjkjhljbvkx xbx";
-        String encode = "";
-        String decode = "";
-
 
         public  Cipher(String mInputString, int mShift){
         this.mInputString = mInputString;
@@ -45,7 +39,6 @@ package models;
                         } else {
                             cipherText += c;
                         }
-
                     }
                 } else{
                     cipherText +=ch;
@@ -78,7 +71,6 @@ package models;
                         } else {
                             cipherText += c;
                         }
-
                     }
                 } else{
                     cipherText +=ch;
@@ -88,8 +80,6 @@ package models;
         public static void main (String[] args) {
 
         }
-
-
     }
 
 
