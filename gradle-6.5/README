@@ -1,82 +1,82 @@
-# CaesarCipher
- ### By Jack Oyugi
+ CaesarCipher
+ By Jack Oyugi
 
-### on 27, Jun, 2020
+ on 27, Jun, 2020
 
-### Description
+ Description
 This app can be used for text encryption and decryption, `enter a text and see the magic`
 the app is developed using `java`
 
-## Behaviour Driven Development BDD
+ Behaviour Driven Development BDD
 Fork the project from https://github.com/jackoyugi/CaesaCipher
 And clone the directory in your local machine directory.
 Open the project in intellij editor and run the project using gradle `java App`
 
-### Encryption
+ Encryption
 Input
-<ul>
-<li>Select 1 for encryption</li>
-<li>Enter the word or sentence to encode</li>
-<li>Enter key for encode- this will shift the letters to the right by the number of times depending on the key used</li>
-<ul>
-Example when you enter `Hello` the encoded word `Lipps` when key is 2
+
+Select 1 for encryption
+Enter the word or sentence to encode
+Enter key for encode- this will shift the letters to the right by the number of times depending on the key used
+
+Example when you enter `Hello` the encoded word `Lipps` when key is 4
 
 
 Output
-<li>Your text will be encoded and text displayed - result `Lipps`</li>
+Your text will be encoded and text displayed - result `Lipps`
 
-### Decryption
+Decryption
 Input
-<ul>
-<li>Select 2 for encryption</li>
-<li>Enter the encoded text above</li>
-<li>Enter the same key used for encode- this will shift the letters back to their original position</li>
-Example the encoded text `Lipps` the used key was 2 and it will decode the text back to `Hello`
-</ul>
+
+Select 2 for encryption</li>
+Enter the encoded text above</li>
+Enter the same key used for encode- this will shift the letters back to their original position
+Example the encoded text `Lipps` the used key was 4 and it will decode the text back to `Hello`
+
 
 Output
-<li>Your text will be decoded back and text displayed- result is `Hello`</li>
+Your text will be decoded back and text displayed- result is `Hello`
 
-### Exit
+Exit
 To exit the app enter 0
 
-### Technologies Used
-<ol>
-<li>Java- downloaded the sdk and jdk in ubuntu linux</li>
-<li>itellij  code Editor- downloaded the editor</li>
-<li>Gradle - download gradle and extract files</li>
-</ol>
+Technologies Used
 
-### Github repo link
+Java- downloaded the sdk and jdk in ubuntu linux
+itellij  code Editor- downloaded the editor
+Gradle - download gradle and extract files
+
+
+Github repo link
 https://github.com/jackoyugi/CaesaCipher
 
 
-### Contact
+Contact
 For any inquery or input and contributions check out to me
 
-### Restriction
+Restriction
 The app works with positive numbers in the shift parameter.
 The app only works with shift less than 26 and more than 0
 The code violates Dry don't repeat yourself principle by repeating the calculation more than it has to.
 
-### Pseudocode
+Pseudocode
 Loop through each character in the string.
 shift to the character by adding or substracting of letters in the alphabet (26)
 Append the character on a new string.
 Return the string.
 
-### Invoking
+Invoking
 System.out.println("xxx")
 
-### Build
+ Build
 
 Run `gradle compileJava` on the terminal to build the project. The build artifacts will be stored in the `build/` directory.
 
-### Running unit tests
+Running unit tests
 
 Run test files using Red Green Refactor.
 
 
-### Further help
+Further help
 
 To get more help on the github [CaesarCipher README](https://github.com/jackoyugi/README.md).
