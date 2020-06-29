@@ -21,7 +21,7 @@ Input
 <li>Enter the word or sentence to encode</li>
 <li>Enter key for encode- this will shift the letters to the right by the number of times depending on the key used</li>
 <ul>
-Example when you enter `Hello` the encoded word `Lipps` when key is 2
+Example when you enter `Hello` the encoded word `Lipps` when key is 4
 
 
 Output
@@ -33,7 +33,7 @@ Input
 <li>Select 2 for encryption</li>
 <li>Enter the encoded text above</li>
 <li>Enter the same key used for encode- this will shift the letters back to their original position</li>
-Example the encoded text `Lipps` the used key was 2 and it will decode the text back to `Hello`
+Example the encoded text `Lipps` the used key was 4 and it will decode the text back to `Hello`
 </ul>
 
 Output
