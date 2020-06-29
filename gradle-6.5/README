@@ -1,14 +1,58 @@
-Gradle is a build tool with a focus on build automation and support for multi-language development. If you are building, testing, publishing, and deploying software on any platform, Gradle offers a flexible model that can support the entire development lifecycle from compiling and packaging code to publishing web sites. Gradle has been designed to support build automation across multiple languages and platforms including Java, Scala, Android, C/C++, and Groovy, and is closely integrated with development tools and continuous integration servers including Eclipse, IntelliJ, and Jenkins.
+# CaesarCipher
 
-For more information about Gradle, please visit: https://gradle.org
+ ### By Jack Oyugi
 
-If you are using the "all" distribution, the User Manual is included in your distribution.
+### on 27, Jun, 2020
 
-If you are using the "bin" distribution, a copy of the User Manual is available on https://docs.gradle.org.
+### Description
+This app enable search for Github profiles and repos, `one types the username on the provided form and sees the github profiles pops in`lastly one can `view directly profiles in github through the provided button view profile on github and and also view projects on github`
 
-Typing `gradle help` prints the command line help.
+## Behaviour Driven Development BDD
+## Inputs
+<li>Users are able to see search for github profiles and repos </li>
+<li>Users are able to search several profiles</li>
+<li>Users are able to check through to see the projects on github</li>
 
-Typing `gradle tasks` shows all the tasks of a Gradle build.
+
+## Output
+<li>Users are able to see the profiles they have search and the repos</li>
 
 
-## Jack Oyugi
+
+
+## Technologies Used
+<ol>
+<li>Angular framework- downloaded the angular in ubuntu linux</li>
+<li>VS code Editor- downloaded the editor</li>
+<li>Bootstrap.css- npm install bootstrap</li>
+<li>JavaScript and Jquery library</li>
+<li>Styles.css</li>
+</ol>
+
+## Github deployment link
+https://jackoyugi.github.io/Gitgoogle/
+
+
+# Contact
+For any inquery or input and contributions check out to me
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Jack](https://jackoyugi.github.io).
+
+
+## Further help
+
+To get more help on the Angular CLI use `ng help` or go check out the [Gitgoogle README](https://github.com/jackoyugi/README.md).
