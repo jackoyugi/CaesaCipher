@@ -28,8 +28,8 @@ Your text will be encoded and text displayed - result `Lipps`
 Decryption
 Input
 
-Select 2 for encryption</li>
-Enter the encoded text above</li>
+Select 2 for encryption<
+Enter the encoded text above
 Enter the same key used for encode- this will shift the letters back to their original position
 Example the encoded text `Lipps` the used key was 4 and it will decode the text back to `Hello`
 
